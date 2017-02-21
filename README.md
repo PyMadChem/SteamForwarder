@@ -23,3 +23,9 @@ steam_api.dll implementation for wine. Your windows games now can interact with 
 2. Put **steam_api.dll** from your game or steam sdk into repo root.
 3. Regenerate code by `make generate-code`.
 4. Compile SteamForwarder using `make` command.
+
+## On Fedora/RHEL/CentOS
+### Dependencies
+* wine
+* wine-devel.i686
+* glibc-devel.i686
